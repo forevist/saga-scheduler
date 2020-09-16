@@ -1,9 +1,6 @@
 import React from 'react';
 import { SagaScheduler } from './components/main';
-
-import 'primereact/resources/themes/saga-blue/theme.css';
-import 'primereact/resources/primereact.min.css';
-import 'primeicons/primeicons.css';
+import 'antd/dist/antd.css';
 
 import './App.css';
 
