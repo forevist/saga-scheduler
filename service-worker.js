@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/saga-scheduler/precache-manifest.0bead16c865385eb8e3c087b76497bea.js"
+  "/saga-scheduler/precache-manifest.8be1cc86e2ca5fb1a7edf8245773e093.js"
 );
 
 self.addEventListener('message', (event) => {

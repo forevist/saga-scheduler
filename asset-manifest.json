@@ -1,23 +1,25 @@
 {
   "files": {
-    "main.css": "/saga-scheduler/static/css/main.5f361e03.chunk.css",
-    "main.js": "/saga-scheduler/static/js/main.c6a88d70.chunk.js",
-    "main.js.map": "/saga-scheduler/static/js/main.c6a88d70.chunk.js.map",
+    "main.css": "/saga-scheduler/static/css/main.4ebbc3e4.chunk.css",
+    "main.js": "/saga-scheduler/static/js/main.e419eb91.chunk.js",
+    "main.js.map": "/saga-scheduler/static/js/main.e419eb91.chunk.js.map",
     "runtime-main.js": "/saga-scheduler/static/js/runtime-main.9b7b0b02.js",
     "runtime-main.js.map": "/saga-scheduler/static/js/runtime-main.9b7b0b02.js.map",
-    "static/js/2.0d2f4147.chunk.js": "/saga-scheduler/static/js/2.0d2f4147.chunk.js",
-    "static/js/2.0d2f4147.chunk.js.map": "/saga-scheduler/static/js/2.0d2f4147.chunk.js.map",
+    "static/css/2.99a5358a.chunk.css": "/saga-scheduler/static/css/2.99a5358a.chunk.css",
+    "static/js/2.e0418992.chunk.js": "/saga-scheduler/static/js/2.e0418992.chunk.js",
+    "static/js/2.e0418992.chunk.js.map": "/saga-scheduler/static/js/2.e0418992.chunk.js.map",
     "index.html": "/saga-scheduler/index.html",
-    "precache-manifest.0bead16c865385eb8e3c087b76497bea.js": "/saga-scheduler/precache-manifest.0bead16c865385eb8e3c087b76497bea.js",
+    "precache-manifest.8be1cc86e2ca5fb1a7edf8245773e093.js": "/saga-scheduler/precache-manifest.8be1cc86e2ca5fb1a7edf8245773e093.js",
     "service-worker.js": "/saga-scheduler/service-worker.js",
-    "static/css/main.5f361e03.chunk.css.map": "/saga-scheduler/static/css/main.5f361e03.chunk.css.map",
-    "static/js/2.0d2f4147.chunk.js.LICENSE.txt": "/saga-scheduler/static/js/2.0d2f4147.chunk.js.LICENSE.txt",
-    "static/media/logo.svg": "/saga-scheduler/static/media/logo.5d5d9eef.svg"
+    "static/css/2.99a5358a.chunk.css.map": "/saga-scheduler/static/css/2.99a5358a.chunk.css.map",
+    "static/css/main.4ebbc3e4.chunk.css.map": "/saga-scheduler/static/css/main.4ebbc3e4.chunk.css.map",
+    "static/js/2.e0418992.chunk.js.LICENSE.txt": "/saga-scheduler/static/js/2.e0418992.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.9b7b0b02.js",
-    "static/js/2.0d2f4147.chunk.js",
-    "static/css/main.5f361e03.chunk.css",
-    "static/js/main.c6a88d70.chunk.js"
+    "static/css/2.99a5358a.chunk.css",
+    "static/js/2.e0418992.chunk.js",
+    "static/css/main.4ebbc3e4.chunk.css",
+    "static/js/main.e419eb91.chunk.js"
   ]
 }
