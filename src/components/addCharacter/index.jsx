@@ -37,7 +37,7 @@ export class AddCharacter extends React.Component {
       <>
         <UserAddOutlined onClick={this.showModal}/>
         <Modal
-          title="Basic Modal"
+          title="Add character"
           visible={this.state.visible}
           onOk={this.handleOk}
           onCancel={this.handleCancel}

@@ -1,8 +1,11 @@
 import React from 'react';
-import { Menu } from 'antd';
+import { Menu, Divider } from 'antd';
+import { QuestionOutlined } from '@ant-design/icons';
 
 import { CharacterName } from './character';
 import { AddCharacter } from './addCharacter';
+import { RoadMapModal } from './roadMapModal';
+
 
 export class SagaScheduler extends React.Component {
 
@@ -12,7 +15,8 @@ export class SagaScheduler extends React.Component {
   };
 
   state = {
-    names: ['1', '2', '3'],
+    names: ['test1', 'test2', 'test3'],
+    roadMapVisible: false,
   };
 
   componentDidMount() {
@@ -63,19 +67,31 @@ export class SagaScheduler extends React.Component {
     ));
   };
 
+  toggleRoadmapVisibility = () => {
+    this.setState({
+      roadMapVisible: !this.state.roadMapVisible,
+    })
+  }
+
   render() {   
 
     return (
-      <Menu
-        onClick={this.handleClick}
-        style={{ width: 200 }}
-        mode="inline"
-      >
-        {this.drawCharacters()}
-        <Menu.Item>
-          <AddCharacter onAdd={this.addCharacter}/>
-        </Menu.Item>
-      </Menu>
+      <>
+        <Menu
+          onClick={this.handleClick}
+          style={{ width: 200 }}
+          mode="inline"
+        >
+          {this.drawCharacters()}
+          <Menu.Item>
+            <AddCharacter onAdd={this.addCharacter}/>
+          </Menu.Item>
+          <Menu.Item>
+            <QuestionOutlined onClick={this.toggleRoadmapVisibility}/>
+          </Menu.Item>
+        </Menu>
+        <RoadMapModal visible={this.state.roadMapVisible} toggleVisibility={this.toggleRoadmapVisibility}/>
+      </>
     );
   }
 }
