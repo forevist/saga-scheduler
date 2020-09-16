@@ -1,6 +1,8 @@
 import React from 'react';
 
 import List from '@material-ui/core/List';
+import ListItem from '@material-ui/core/ListItem';
+import AddIcon from '@material-ui/icons/Add';
 import { CharacterName } from '../character';
 
 
@@ -30,27 +32,42 @@ export class CharactersList extends React.Component {
   };
 
   onChangeName = (oldName, newName) => {
+    console.log('onChangeName');
     const newNames = [].concat(this.state.names);
     newNames[newNames.indexOf(oldName)] = newName;
     this.setState({
       names: newNames,
     })
   }
+
+  addCharacter = () => {
+    const newNames = [].concat(this.state.names);
+    newNames.push('');
+    this.setState({
+      names: newNames,
+    });
+  }
       
   render() {
     const names = this.state.names
+    console.log('------', names.length);
     return (
       <List>
-        {names.map((name, index) => (
-          <CharacterName 
-            key={index}
-            name={name}
-            clickHandler={this.clickHandler}
-            onChangeName={this.onChangeName}
-            onDelete={this.deleteCharacter}
-          />
-        ))}
-        {/* component for adding character */}
+        {names.map((name, index) => {
+          console.log(index);
+          return (
+            <CharacterName 
+              key={index}
+              name={name}
+              clickHandler={this.clickHandler}
+              onChangeName={this.onChangeName}
+              onDelete={this.deleteCharacter}
+            />
+          );
+        })}
+        <ListItem button onClick={this.addCharacter}>
+          <AddIcon/>
+        </ListItem>
       </List>
     );
   }
