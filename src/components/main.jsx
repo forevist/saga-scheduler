@@ -1,5 +1,5 @@
 import React from 'react';
-import { Menu, Divider } from 'antd';
+import { Menu } from 'antd';
 import { QuestionOutlined } from '@ant-design/icons';
 
 import { CharacterName } from './character';
