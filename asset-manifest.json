@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/forevist/saga-scheduler/static/css/main.5f361e03.chunk.css",
+    "main.js": "/forevist/saga-scheduler/static/js/main.6750fa68.chunk.js",
+    "main.js.map": "/forevist/saga-scheduler/static/js/main.6750fa68.chunk.js.map",
+    "runtime-main.js": "/forevist/saga-scheduler/static/js/runtime-main.e920af85.js",
+    "runtime-main.js.map": "/forevist/saga-scheduler/static/js/runtime-main.e920af85.js.map",
+    "static/js/2.0d2f4147.chunk.js": "/forevist/saga-scheduler/static/js/2.0d2f4147.chunk.js",
+    "static/js/2.0d2f4147.chunk.js.map": "/forevist/saga-scheduler/static/js/2.0d2f4147.chunk.js.map",
+    "index.html": "/forevist/saga-scheduler/index.html",
+    "precache-manifest.ca6a922a6da424b9d711399bcb7fd3e7.js": "/forevist/saga-scheduler/precache-manifest.ca6a922a6da424b9d711399bcb7fd3e7.js",
+    "service-worker.js": "/forevist/saga-scheduler/service-worker.js",
+    "static/css/main.5f361e03.chunk.css.map": "/forevist/saga-scheduler/static/css/main.5f361e03.chunk.css.map",
+    "static/js/2.0d2f4147.chunk.js.LICENSE.txt": "/forevist/saga-scheduler/static/js/2.0d2f4147.chunk.js.LICENSE.txt",
+    "static/media/logo.svg": "/forevist/saga-scheduler/static/media/logo.5d5d9eef.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.e920af85.js",
+    "static/js/2.0d2f4147.chunk.js",
+    "static/css/main.5f361e03.chunk.css",
+    "static/js/main.6750fa68.chunk.js"
+  ]
+}
